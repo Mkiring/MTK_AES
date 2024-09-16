@@ -12,7 +12,7 @@
 #include <linux/types.h>
 #include <linux/crypto.h>
 #include <linux/version.h>
-
+#include <linux/of_device.h>
 #include "mtk-aes-engine.h"
 
 static void aes_engine_start(struct mtk_dev *mtk)
